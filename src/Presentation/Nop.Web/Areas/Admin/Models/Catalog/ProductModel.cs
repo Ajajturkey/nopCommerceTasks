@@ -81,9 +81,6 @@ namespace Nop.Web.Areas.Admin.Models.Catalog
         [NopResourceDisplayName("Admin.Catalog.Products.Fields.Name")]
         public string Name { get; set; }
 
-        [NopResourceDisplayName("Admin.Catalog.Products.Fields.Author")]
-        public string Author { get; set; }
-
         [NopResourceDisplayName("Admin.Catalog.Products.Fields.ShortDescription")]
         public string ShortDescription { get; set; }
 

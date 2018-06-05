@@ -48,11 +48,6 @@ namespace Nop.Core.Domain.Catalog
         public string Name { get; set; }
 
         /// <summary>
-        /// Gets or sets the Author
-        /// </summary>
-        public string Author { get; set; }
-
-        /// <summary>
         /// Gets or sets the short description
         /// </summary>
         public string ShortDescription { get; set; }

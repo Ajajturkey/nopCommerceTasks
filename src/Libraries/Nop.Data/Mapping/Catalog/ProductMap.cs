@@ -15,7 +15,6 @@ namespace Nop.Data.Mapping.Catalog
             this.ToTable("Product");
             this.HasKey(p => p.Id);
             this.Property(p => p.Name).IsRequired().HasMaxLength(400);
-            this.Property(p => p.Author).IsRequired().HasMaxLength(400);
             this.Property(p => p.MetaKeywords).HasMaxLength(400);
             this.Property(p => p.MetaTitle).HasMaxLength(400);
             this.Property(p => p.Sku).HasMaxLength(400);
