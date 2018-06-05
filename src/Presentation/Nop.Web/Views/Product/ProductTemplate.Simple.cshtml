@@ -64,6 +64,10 @@
                             <h1 itemprop="name">
                                 @Model.Name
                             </h1>
+                            <p>
+                                <span>@T("Admin.Catalog.Products.Fields.Author"): </span>
+                                @Model.Author
+                            </p>
                         </div>
                         @if (!string.IsNullOrEmpty(Model.ShortDescription))
                         {
